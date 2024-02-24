@@ -172,6 +172,8 @@ We are going to evaluate model’s performance based on the following attributes
 2. Accuracy
 3. Precision
 4. Recall
+
+   
 LOSS: - loss indicates the number of bad predictions by the model the value of the loss should be less than 1
 and near to or equal to 0.
 ACCURACY: - accuracy indicates the total number of correct predictions overall by the model, the value of
