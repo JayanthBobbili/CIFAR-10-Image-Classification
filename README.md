@@ -99,7 +99,7 @@ NumPy is basically the ‘mathematical operational’ module of the python in si
 used to convert any kind of data into numerical form and use ML and DL algorithms on them to find the patterns
 in them and train the model accordingly to either classify, cluster, predict the outcome of the data. NumPy is
 very fast and efficient in calculating or crunching the numbers.
-6
+
 ## 2.1.3 Matplotlib and Seaborn
 Matplotlib and Seaborn are the representational tools of the python these are mainly used to visualize the data
 and see the behavior of the data based on their plotting. Matplotlib is a plotting tool which takes the data and
@@ -109,11 +109,15 @@ as contain libraries which plots more complex graph plots and their visual repre
 ## 2.1.4 TensorFlow
 • TensorFlow is an end-to-end open-source platform and python module developed by GOOGLE to
 perform many advance steps in single statement of the python program.
+
 • From Keres library of TensorFlow we can create a deep learning model and import some of the
 preprocessed datasets.
+
 • We can perform model fitting and model compilations using these modules.
+
 • We can even save models for later purpose and and load them and use them for predictions classifications
 and many more.
+
 • This is one of the robust and efficient packages of python that can be used to in Machine Learning and Data Science.
 
 # 2.2 Dataset: CIFAR 10
@@ -127,15 +131,22 @@ training and 1000 for testing of the data.
 
 ## 2.3 Data preprocessing and analysis
 Data preprocessing is one of the most important steps of the training a deep learning technique.
+
 • One of the initial steps for preprocessing of the data is to divide data into training and testing datesets.
+
 • Afterwards datasets are normalized by dividing the images with 255.0.
+
 • Thereafter we one-hot-encode the data labels of the data
+
 One hot encoding is process in which the labels are converted into binary form and divide the labels into 10
 classes.
-If we do not perform one hot encoding on the labels of the data, whole labels will be classified as one class
+
+* If we do not perform one hot encoding on the labels of the data, whole labels will be classified as one class
 and the model performance will be severly affected by this so this one of the most important step in
 preprocessing
+
 • Afterwards we visualize the class distribution with labels to avoid any null values.
+
 • One of the steps for INCEPTIONV3 model is to reshape the data set of images to 75*75*3.
 
 ## 2.4 Deep Learning Model
@@ -154,16 +165,21 @@ learning model.
 3. Activation function
 
 • Pooling is the process in which reduction of dimensionality takes place in the inner matrices.
+
 • Convolutional layer is the inner layers of the deep learning model which extract the higher order features
 of an image.
+
 • Dense layer contains neurons which attach all the previous layers and to form one big complex layer to
 extract the pattern information.
+
 • Activation function is a function which takes weights of the previous layers and checks them with the
 threshold value if it is greater than or equal to the threshold value the next layer will be activated, or
-weight will be passed to next layer otherwise it will not
+weight will be passed to next layer otherwise it will not.
+
 • We use ‘relu’ for inner level layers and we use ‘SoftMax’ for outer most or classification layer.
 The other neural network models like DenseNet, MobileNet and InceptionV3 are same as CNN with very
 little changes.
+
 Now let us look into the Evaluation of models.
 
 ## 2.5 Evaluation of Model’s performance.
@@ -176,10 +192,13 @@ We are going to evaluate model’s performance based on the following attributes
    
 LOSS: - loss indicates the number of bad predictions by the model the value of the loss should be less than 1
 and near to or equal to 0.
+
 ACCURACY: - accuracy indicates the total number of correct predictions overall by the model, the value of
 the accuracy should be nearly equal to 1.
+
 PRECISION: - precision measure the number of true positives is correctly predicted over total number of true
 positives.
+
 RECALL: - recall measure the total number of relevant datapoints which are taken in consideration while
 making a prediction.
 
