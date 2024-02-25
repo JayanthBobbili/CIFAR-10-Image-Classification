@@ -1,6 +1,10 @@
 # CIFAR-10 Image Classification
  Using some of the deep learning techniques such as CNN (Convolutional Neural Network), InceptionV3, MobileNet and DenseNet and compare their metrics to see which of these will be giving a good functioning model to classify the images.
 
+ # NOTE:-
+
+To run this project you need to have either mini-conda/anaconda environmment installed in your system along with many of the requrired libraries which are mentioned in the module "2.1" in this file and please go thuroug the instructions and documentations properly.
+
 # Chapter 1: Introduction
 In the realm of Artificial Intelligence, image processing, prediction, and classification represent greatest
 advancements. Initially, AI primarily focused on addressing problems such as finding the shortest paths or
